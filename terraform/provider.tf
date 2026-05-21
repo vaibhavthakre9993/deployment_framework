@@ -10,8 +10,8 @@ terraform {
     }
   }
   backend "azurerm" {
-    resource_group_name  = "deployment-framework-rg"
-    storage_account_name = "tfstatedeployfw"
+    resource_group_name  = "tfstate-rg"
+    storage_account_name = "tfstatedeployfw2"
     container_name       = "tfstate"
     key                  = "terraform.tfstate"
   }
