@@ -1,0 +1,6 @@
+app_name       = "my-app"
+port           = 3000
+subdomain      = "myapp.poc.xoriant.com"
+location       = "East US"
+resource_group = "my-app-rg"
+docker_image   = "myuser/my-app:latest"

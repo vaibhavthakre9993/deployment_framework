@@ -1,0 +1,4 @@
+app_name: "my-app"
+port: 3000
+subdomain: "myapp.poc.xoriant.com"
+language: "node"
